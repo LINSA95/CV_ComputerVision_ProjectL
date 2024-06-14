@@ -88,3 +88,4 @@ print("CNN Error: %.2f%%" % (100 - scores[1] * 100))
 # Make predictions - Predictions are made on the test set, with the first 10 predictions printed.
 predictions = model.predict(x_test)
 print("First 10 predictions:", predictions[:10])
+print("End of Predictions")
